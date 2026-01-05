@@ -2,7 +2,7 @@
 
 [![build](https://github.com/remarkablemark/novu-template/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablemark/novu-template/actions/workflows/build.yml)
 
-[Novu](https://novu.co/) template.
+🔔 [Novu](https://github.com/novuhq/novu) template based on [Express quickstart](https://docs.novu.co/framework/quickstart/express).
 
 ## Prerequisites
 
