@@ -1,8 +1,8 @@
-# express-api-template
+# novu-template
 
-[![build](https://github.com/remarkablemark/express-api-template/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablemark/express-api-template/actions/workflows/build.yml)
+[![build](https://github.com/remarkablemark/novu-template/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablemark/novu-template/actions/workflows/build.yml)
 
-Express API template.
+[Novu](https://novu.co/) template.
 
 ## Prerequisites
 
@@ -17,8 +17,8 @@ brew install nvm
 Clone the repository:
 
 ```sh
-git clone https://github.com/remarkablemark/express-api-template.git
-cd express-api-template
+git clone https://github.com/remarkablemark/novu-template.git
+cd novu-template
 ```
 
 Install the dependencies:

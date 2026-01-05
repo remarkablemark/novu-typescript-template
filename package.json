@@ -1,5 +1,5 @@
 {
-  "name": "express-api-template",
+  "name": "novu-template",
   "version": "1.0.0-alpha",
   "description": "Express API template.",
   "author": "Mark <mark@remarkablemark.org>",
@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsc",
     "clean": "rm -rf build",
-    "dev": "DEBUG=express-api-template:* nodemon src/bin/www.ts",
+    "dev": "DEBUG=novu-template:* nodemon src/bin/www.ts",
     "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix",
     "lint:tsc": "tsc --noEmit",
