@@ -6,7 +6,14 @@
     "resolveJsonModule": true,
     "rootDir": "src",
     "strict": true,
-    "target": "es6"
+    "target": "es6",
+    "skipLibCheck": true
   },
-  "exclude": ["node_modules", "**/*.spec.ts", "**/*.test.ts", "jest.config.ts"]
+  "exclude": [
+    "__mocks__",
+    "jest.config.ts",
+    "node_modules",
+    "src/**/*.spec.ts",
+    "src/**/*.test.ts"
+  ]
 }
