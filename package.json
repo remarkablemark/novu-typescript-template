@@ -7,7 +7,9 @@
   "scripts": {
     "build": "tsc",
     "clean": "rm -rf build",
-    "dev": "DEBUG=novu-template:* nodemon src/bin/www.ts",
+    "dev": "run-p dev:*",
+    "dev:api": "DEBUG=novu-template:* nodemon src/bin/www.ts",
+    "dev:novu": "novu dev",
     "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix",
     "lint:tsc": "tsc --noEmit",
@@ -17,6 +19,7 @@
     "test:ci": "CI=true jest --coverage --colors --ci"
   },
   "dependencies": {
+    "@novu/framework": "2.9.0",
     "compression": "1.8.1",
     "cookie-parser": "1.4.7",
     "cors": "2.8.5",
@@ -24,7 +27,8 @@
     "express": "5.2.1",
     "helmet": "8.1.0",
     "morgan": "1.10.1",
-    "pm2": "6.0.14"
+    "pm2": "6.0.14",
+    "zod-to-json-schema": "3.25.1"
   },
   "devDependencies": {
     "@commitlint/cli": "20.3.0",
@@ -51,6 +55,8 @@
     "jest": "30.2.0",
     "lint-staged": "16.2.7",
     "nodemon": "3.1.11",
+    "novu": "2.7.0",
+    "npm-run-all2": "8.0.4",
     "prettier": "3.7.4",
     "supertest": "7.1.4",
     "ts-jest": "29.4.6",

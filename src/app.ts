@@ -1,3 +1,4 @@
+import { serve } from '@novu/framework/express';
 import compression from 'compression';
 import cookieParser from 'cookie-parser';
 import cors from 'cors';
@@ -7,6 +8,7 @@ import helmet from 'helmet';
 import logger from 'morgan';
 
 import { isProduction, isTest } from './config';
+import { testWorkflow } from './novu/workflows';
 import indexRouter from './routes/index';
 
 const app = express();
@@ -30,6 +32,7 @@ app.use(
  * Routes.
  */
 app.use('/', indexRouter);
+app.use('/api/novu', serve({ workflows: [testWorkflow] }));
 
 /**
  * 404 Not Found

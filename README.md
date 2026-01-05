@@ -45,7 +45,10 @@ In the project directory, you can run:
 
 Runs the app in the development mode.
 
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+| Description | Endpoint                       |
+| ----------- | ------------------------------ |
+| Novu Studio | http://localhost:2022/studio   |
+| Novu Bridge | http://localhost:4000/api/novu |
 
 The server will reload if you make edits.
 
