@@ -1,8 +1,8 @@
-# novu-template
+# novu-typescript-template
 
-[![build](https://github.com/remarkablemark/novu-template/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablemark/novu-template/actions/workflows/build.yml)
+[![build](https://github.com/remarkablemark/novu-typescript-template/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablemark/novu-typescript-template/actions/workflows/build.yml)
 
-🔔 [Novu](https://github.com/novuhq/novu) template based on [Express quickstart](https://docs.novu.co/framework/quickstart/express).
+🔔 [Novu](https://github.com/novuhq/novu) TypeScript template based on [Express quickstart](https://docs.novu.co/framework/quickstart/express).
 
 ## Prerequisites
 
@@ -17,8 +17,8 @@ brew install nvm
 Clone the repository:
 
 ```sh
-git clone https://github.com/remarkablemark/novu-template.git
-cd novu-template
+git clone https://github.com/remarkablemark/novu-typescript-template.git
+cd novu-typescript-template
 ```
 
 Install the dependencies:
