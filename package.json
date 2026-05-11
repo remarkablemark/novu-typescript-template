@@ -52,7 +52,7 @@
     "eslint-plugin-simple-import-sort": "13.0.0",
     "globals": "17.6.0",
     "husky": "9.1.7",
-    "jest": "30.4.1",
+    "jest": "30.4.2",
     "lint-staged": "17.0.4",
     "nodemon": "3.1.14",
     "novu": "2.8.0",
