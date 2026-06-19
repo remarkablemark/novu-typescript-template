@@ -55,7 +55,7 @@
     "jest": "30.4.2",
     "lint-staged": "17.0.7",
     "nodemon": "3.1.14",
-    "novu": "2.16.0",
+    "novu": "2.17.0",
     "npm-run-all2": "9.0.2",
     "prettier": "3.8.4",
     "supertest": "7.2.2",
