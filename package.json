@@ -28,7 +28,7 @@
     "helmet": "8.3.0",
     "morgan": "1.12.1",
     "pm2": "7.0.4",
-    "zod": "4.6.4"
+    "zod": "4.6.5"
   },
   "devDependencies": {
     "@commitlint/cli": "21.2.2",
