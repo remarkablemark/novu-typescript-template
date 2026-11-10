@@ -58,7 +58,7 @@
     "novu": "2.21.3",
     "npm-run-all2": "9.0.4",
     "prettier": "3.9.10",
-    "supertest": "7.3.1",
+    "supertest": "7.3.2",
     "ts-jest": "29.4.15",
     "ts-node": "10.9.2",
     "typescript": "5.9.3"
